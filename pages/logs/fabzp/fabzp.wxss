@@ -1,0 +1,43 @@
+/* pages/logs/fabzp/fabzp.wxss */
+#form1{
+    widows: 100%;
+    height: 100%;
+    display: flex；
+ justify-content: center;
+    background: lightgrey；
+}
+.form1-1{
+    flex: 1；
+    width: 90%；
+    height: 30px;
+    background: #fff;
+    border: solid 1px gray;
+}
+.form1-2{
+    flex: 3；
+    width: 90%；
+    height: 30px;
+    background: #fff;
+    border: solid 1px gray;
+}
+.form1-3{
+    flex: 1；
+    width: 90%；
+    height: 30px;
+    background: #fff;
+    border: solid 1px gray;
+}
+.form1-4{
+    flex: 1；
+    width: 90%；
+    height: 30px;
+    background: #fff;
+    border: solid 1px gray;
+}
+.form1-5{
+    flex: 1；
+    width: 90%；
+    height: 30px;
+    background: #fff;
+    border: solid 1px gray;
+}
