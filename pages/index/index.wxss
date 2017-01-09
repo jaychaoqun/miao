@@ -78,3 +78,7 @@ switch{
    top: 20rpx;
    right: 20rpx;
 }
+.clas{
+  background: lawngreen;
+  color: gold;
+}
