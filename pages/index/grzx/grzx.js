@@ -3,10 +3,8 @@
       data:{
         xing:['姓名'],
         huiy:['普通会员'],
-        tt:[{name:'行程',time:'行程.png'},{name:'钱包',time:'钱包.png'}],
-        xqks:['行程','钱包','客服','设置'],
-        imag:['行程.png','钱包.png','客服.png','设置.png']
-      },
+        tt:[{name:'行程',time:'行程.png'},{name:'钱包',time:'钱包.png'},{name:'客服',time:'客服.png'},{name:'设置',time:'设置.png'}]
+    },
       onLoad:function(options){
         // 生命周期函数--监听页面加载
         String2

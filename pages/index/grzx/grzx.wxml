@@ -6,9 +6,10 @@
        <view class="img3">{{huiy}}</view>
        </view>
     </view>
-    
-    <view wx:for="{{tt}}"class="tt">
+    <view>
+    <navigator url="url"wx:for="{{tt}}"class="tt"hover-class="red">
         <image class="tt1" src="/image1/{{item.time}}"></image>
-        <navigator class="tt2" url="url">{{item.name}}</navigator>
+        <view class="tt2">{{item.name}}</view>
+       </navigator>
     </view>
 </view>

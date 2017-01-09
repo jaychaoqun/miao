@@ -21,11 +21,23 @@
     color: gray;
     }
 
-    .tt{
-        display: flex;
+.tt{
+    display: flex;
+     border-bottom: solid 1px #ccc;
     }
-    .tt1{
-        width: 5px;
-        height: 5px;
+.tt1{
+    flex: flex;
+    width:14px;
+    height: 14px;
+    margin: 20px 0 0 10px;
+    }
+.tt2{
+    flex: flex;
+     font-size: 14px;
+     color: gray;
+     margin: 20px;
+    }
+    .red{
+        background:#ccc;
     }
   
