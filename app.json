@@ -6,7 +6,8 @@
     "pages/xqym/xqym",
     "pages/index/index1/index1",
     "pages/index/index2/index2",
-    "pages/logs/fabzp/fabzp"
+    "pages/logs/fabzp/fabzp",
+    "pages/index/grzx/grzx"
   ],
   "window":{
     "backgroundTextStyle":"light",

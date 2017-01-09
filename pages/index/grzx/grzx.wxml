@@ -1,0 +1,14 @@
+<view>
+    <view>
+       <view class="img">
+       <image src="/image1/ren.png" class="img1"></image>
+       <view class="img2">{{xing}}</view>
+       <view class="img3">{{huiy}}</view>
+       </view>
+    </view>
+    
+    <view wx:for="{{tt}}"class="tt">
+        <image class="tt1" src="/image1/{{item.time}}"></image>
+        <navigator class="tt2" url="url">{{item.name}}</navigator>
+    </view>
+</view>

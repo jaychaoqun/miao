@@ -1,43 +1,74 @@
 /* pages/logs/fabzp/fabzp.wxss */
 #form1{
     widows: 100%;
-    height: 100%;
-    display: flex；
- justify-content: center;
-    background: lightgrey；
+    background:#f5f5f5;
 }
 .form1-1{
-    flex: 1；
-    width: 90%；
-    height: 30px;
+    margin: 40rpx;
     background: #fff;
     border: solid 1px gray;
+    border-radius:20rpx;
+    line-height: 40px； 
 }
 .form1-2{
-    flex: 3；
-    width: 90%；
-    height: 30px;
     background: #fff;
     border: solid 1px gray;
+    border-radius:20rpx;
+    margin: auto;
 }
 .form1-3{
-    flex: 1；
-    width: 90%；
-    height: 30px;
     background: #fff;
+     margin: 40rpx;
     border: solid 1px gray;
+    border-radius:20rpx;
 }
 .form1-4{
-    flex: 1；
-    width: 90%；
-    height: 30px;
     background: #fff;
+     margin: 40rpx;
     border: solid 1px gray;
+    border-radius:20rpx;
 }
 .form1-5{
-    flex: 1；
-    width: 90%；
-    height: 30px;
+     margin: 40rpx;
     background: #fff;
     border: solid 1px gray;
+    border-radius:20rpx;
+}
+.bt{
+    color: orange;
+    font-size: 16px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.bt1{
+    color: orange;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 40rpx;
+}
+.bt2{
+color: orange;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 40rpx;
+}
+.placlass{
+    font-size: 12px;
+    color: #dcdcdc;
+    text-align: center;
+}
+.butt1{  
+    margin-top: 40rpx;
+    background: orange;
+    color: #fff;
+}
+.group{
+    display: flex;
+}
+.label-2{
+  margin-bottom: 30rpx;
+  margin-left: 40rpx;
+  flex: 1;
+
 }

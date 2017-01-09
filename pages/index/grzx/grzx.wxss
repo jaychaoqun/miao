@@ -1,0 +1,31 @@
+/* pages/index/grzx/grzx.wxss */
+.img{
+    text-align: center;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    border: solid 1px gray;
+    border-radius:40px;
+    margin: auto; 
+    }
+.img2{
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    }
+.img3{
+    margin: 5px auto;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    }
+
+    .tt{
+        display: flex;
+    }
+    .tt1{
+        width: 5px;
+        height: 5px;
+    }
+  

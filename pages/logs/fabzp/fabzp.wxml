@@ -1,23 +1,30 @@
 <view id="form1">
-    <form>
+    <form class="form2">
+ <view class="bt">标题:</view>
   <view class="form1-1">
-    <input name="userName" placeholder="标题" />
-  </view>
-  <view class="form1-2">
-    <input name="psw" placeholder="职位详解" />
-  </view>
-  <view class="form1-3">
-    <input name="psw" placeholder="人数" />
-  </view>
-  <view class="form1-4">
-    <input name="psw" placeholder="赏金" />
-  </view>
-  <view>性别</view>
-  <view class="form1-5">
-    <input name="psw" placeholder="职位详解" />
+    <input name="psw" type="text" placeholder="标题"placeholder-class="placlass" />
   </view>
   <view>
-    <button>一键发单</button>
+  <view class="bt1">职位简介:</view>
+    <textarea bindblur="bindTextAreaBlur" placeholder="职位简介"class="form1-2"placeholder-class="placlass"/>
+  </view>
+  <view class="bt2">人数:</view>
+  <view class="form1-3">
+    <input name="psw" type="text" placeholder="人数" size="mini" placeholder-class="placlass"/>
+  </view>
+  <view class="bt">赏金:</view>
+  <view class="form1-4">
+    <input name="psw" placeholder="赏金"placeholder-class="placlass" />
+  </view>
+  <view class="bt1">性别:</view>
+      <radio-group class="group" bindchange="radioChange">
+        <view class="label-2" wx:for="{{radioItems}}">
+          <radio id="{{item.name}}" value="{{item.name}}"                   checked="{{item.checked}}"></radio>
+          <label class="label-2__text" for="{{item.name}}"><text>{{item.name}}</text></label>
+        </view>
+      </radio-group>
+  <view>
+    <button class="butt1" form-type="submit">一键发单</button>
   </view>
 </form>
 <view>{{tip}}</view>
