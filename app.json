@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/addjs/addjs",
+    "pages/xqym/xqym",
+    "pages/index/index1/index1",
+    "pages/index/index2/index2",
+    "pages/logs/fabzp/fabzp"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "靠谱喵",
+    "navigationBarTextStyle":"black"
+  }
+}
