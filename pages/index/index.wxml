@@ -1,48 +1,44 @@
 <!--index.wxml-->
 
 <view id="but">
-<view id="vie">
-<view id="vie1">
-
-<view class="">
-<navigator url="grzx/grzx">
-<image src="/image1/4.png"></image>
-</navigator>
-</view>  
-
-   <view class="box">靠谱喵</view>
-<view class="box1">
-<navigator url="index2/index2">
-<image src="/image1/3.png"></image>
-</navigator>
-</view>
-</view>
-<view>sasda</view>
-
-<view id="vie2">
-   <view class="boxx2">
-   <navigator url="../index/index"hover-class="className">附近</navigator>
-   </view>
-   <view class="boxx">
-   <navigator url="../logs/logs"hover-class="className">一键招人</navigator>
-   </view>
-    <view class="boxx1">
-    <navigator url="../addjs/addjs"hover-class="className">接单大厅</navigator>
+    <view id="vie1">
+        <view>
+            <navigator url="grzx/grzx">
+                <image src="/image1/4.png"></image>
+            </navigator>
+        </view>  
+        <view>
+            <navigator url="index2/index2">
+                <image src="/image1/3.png"></image>
+            </navigator>
+        </view>
     </view>
+
+    <view id="vie2">
+        <view class="boxx2">
+            <navigator url="../index/index" hover-class="className">附近</navigator>
+        </view>
+        <view class="boxx">
+            <navigator url="../logs/logs" hover-class="className">一键招人</navigator>
+        </view>
+        <view class="boxx1">
+            <navigator url="../addjs/addjs" hover-class="className">接单大厅</navigator>
+        </view>
+    </view>
+    
+    <view>
+        <!-- map.wxml -->
+        <map id="myMap" longitude="120.819510" latitude="30.737290" scale="16" markers="{{markers}}">
+        <switch name="switch"/></map>
+    </view>
+    <!--<button bindtap="getpos" hover-class="clas">获取我的位置</button>-->  
 </view>
-</view>
- 
-<view>
-<!-- map.wxml -->
-<map id="myMap" longitude="120.819510" latitude="30.737290"scale="16" markers="{{markers}}"style="width: 100%; height: 600px;"><switch name="switch"/></map>
-</view>
-<button bindtap="getpos"hover-class="clas">获取我的位置</button>
+
 <view class="foot">
-<view class="foot1">
-<navigator url="index1/index1">瞄一瞄</navigator>
-</view>
-<view class="foot2">
-    推荐赞赞RP
-</view>
-</view>
+    <view class="foot1">
+        <navigator url="index1/index1">瞄一瞄</navigator>
+    </view>
+    <view class="foot2">
+        推荐赞赞RP
+    </view>
 </view>
