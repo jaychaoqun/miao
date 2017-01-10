@@ -10,7 +10,7 @@
 </navigator>
 </view>  
 
-   <view class="box">靠谱猫</view>
+   <view class="box"></view>
 <view class="box1">
 <navigator url="index2/index2">
 <image src="/image1/3.png"></image>
