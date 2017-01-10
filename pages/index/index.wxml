@@ -10,11 +10,7 @@
 </navigator>
 </view>  
 
-<<<<<<< HEAD
    <view class="box">靠谱喵</view>
-=======
-   <view class="box">靠谱猫</view>
->>>>>>> origin/master
 <view class="box1">
 <navigator url="index2/index2">
 <image src="/image1/3.png"></image>
