@@ -1,83 +1,63 @@
 /**index.wxss**/
 #but{
   position: relative;
+  width: 100%;
+  height: 100%
 }
+
 #vie1{
-font-size: 14px;
-color: slategray;
+  font-size: 14px;
+  color: slategray;
+  display: flex;
+  justify-content: space-between;
 }
+
 #vie1 image{
   width: 20px;
   height: 20px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
-.box {
-position: absolute;
-top: 0;
-left: 44%;
-}
-.box1 {
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-#vie2{
-  margin-top: 10%;
-  color: gray;
-  font-size: 12px;
-  margin-bottom: 3%;
 
+#vie2{
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
 }
-.boxx {
-position: absolute;
-left: 42%;
-top: 120rpx;
-}
-.boxx1 {
-  position:absolute;
-  left: 83%;
-  top: 120rpx;
-}
-.boxx2{
-  padding-left: 10px;
-}
+
+
 .foot{
-  position: fixed；
+  /*position: fixed;*/
+  position: absolute;
   width:100%;
-  height: 30px;
-  
-}
-.foot1{
-  line-height: 30px;
-  height: 30px;
-  position: fixed;
-  left: 0;
-  border: solid 1px goldenrod;
-  width: 50%;
-  background: orange;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
+  height: 80rpx;
   bottom: 0;
-}
-.foot2{
-  line-height: 30px;
-  height: 30px;
-  position: fixed;
-  right: 0;
   background: orange;
-  border: solid 1px goldenrod;
-  width: 50%;
+}
+.foot .foot1,.foot .foot2{
+  float: left;
+  line-height: 80rpx;
+  height: 80rpx;
+  width: 49%;
   text-align: center;
+  background: orange;
   color: #fff;
-  font-size: 12px;
-  bottom: 0;
+  font-size: 14px;
+}
+
+
+#myMap{
+  width:100%;
+  height: 1000rpx;
 }
 switch{
-   position: absolute;
-   top: 20rpx;
-   right: 20rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
 }
+
 .clas{
   background: lawngreen;
   color: gold;
