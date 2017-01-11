@@ -1,61 +1,70 @@
 /**index.wxss**/
-#but{
-  position: relative;
-  width: 100%;
-  height: 100%
+.but{
+ display: flex;
+ flex-direction: column;
 }
 
-#vie1{
+.vie1{
   font-size: 14px;
   color: slategray;
   display: flex;
   justify-content: space-between;
+  height: 50rpx;
 }
 
-#vie1 image{
+.vie1 image{
   width: 20px;
   height: 20px;
   margin: 0 10px;
 }
 
-#vie2{
+.vie2{
   color: gray;
   font-size: 14px;
   font-weight: bold;
   display: flex;
   justify-content: space-around;
   margin: 10px 0;
+  height: 50rpx;
 }
 
-
-.foot{
-  /*position: fixed;*/
-  position: absolute;
-  width:100%;
-  height: 80rpx;
-  bottom: 0;
-  background: orange;
+.vie3{
+  flex:1;
+  display: flex;
+  flex-direction: column;
 }
-.foot .foot1,.foot .foot2{
-  float: left;
-  line-height: 80rpx;
-  height: 80rpx;
-  width: 49%;
-  text-align: center;
-  background: orange;
-  color: #fff;
-  font-size: 14px;
-}
-
 
 #myMap{
+  flex:1;
   width:100%;
-  height: 1000rpx;
+  height: 1500rpx;
 }
 switch{
   position: absolute;
   top: 20rpx;
   right: 20rpx;
+}
+
+
+.foot{
+  /*position: fixed;*/
+  position: fixed;
+  width:100%;
+  height: 100rpx;
+  bottom: 0;
+  left:0;
+  z-index: 99;
+  background: orange;
+}
+.foot .foot1,.foot .foot2{
+  float: left;
+  line-height: 100rpx;
+  height: 100rpx;
+  width: 49%;
+  text-align: center;
+  background: orange;
+  color: #fff;
+  font-size: 14px;
 }
 
 .clas{

@@ -13,3 +13,13 @@
 .className{
  color: gold;
 }
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.mao-tab-font{font-size:35rpx;color:#afafaf;font-weight: 400;}
+.mao-active{font-size: 35rpx;color:#fb8e4d;font-weight: 400;}
+.mao-font{font-size:28rpx;color: #000;}
+.bar-bg{background: #f8f8f8;height: 80rpx;}

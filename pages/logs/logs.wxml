@@ -14,34 +14,35 @@
     </view>
 
     <view id="vie2">
-        <view >
-            <navigator url="../index/index" open-type="redirect" hover-class="className">附近</navigator>
+        <view>
+            <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
         </view>
-        <view class="className">
-            <navigator url="" open-type="redirect" hover-class="className">一键招人</navigator>
+        <view class="mao-active">
+            <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-active">一键招人</navigator>
         </view>
         <view>
-            <navigator url="../addjs/addjs" open-type="redirect" hover-class="className">接单大厅</navigator>
+            <navigator url="../addjs/addjs" open-type="redirect" hover-class="mao-active" class="mao-tab-font" >接单大厅</navigator>
         </view>
     </view>
 
     <view id="lef">
         <view class="lef1" hover-class="className">
-            <navigator class="className" url="url" hover-class="className"> 喵老板</navigator>
+            <navigator class="mao-tab-font" url="url" hover-class="mao-active"> 喵老板</navigator>
         </view>
         <view class="lef2">
-            <navigator url="url" hover-class="className"> 喵团长</navigator>
+            <navigator url="url" hover-class="mao-active" class="mao-active"> 喵团长</navigator>
         </view>
         <view class="lef3"><image src="/image1/dian.png"></image></view>
         <view class="lef4"><image src="/image1/ren1.png"></image></view>
     </view>
-    <view id="tab">
-        <view class="tab1" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
-
+    
+    <scroll-view id="tab" scroll-y="true" style="height:{{ scroll_height }}">
+        <view class="tab1 mao-font" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
         <view class="tab3" wx:for="{{['查看']}}">{{item}}</view>
         </view>
-        <navigator url="fabzp/fabzp">
-            <button class="butt">发布招聘</button>
-        </navigator>
-    </view>
+    </scroll-view>
+
+     <navigator url="fabzp/fabzp">
+        <button class="butt">发布招聘</button>
+    </navigator>
 </view>

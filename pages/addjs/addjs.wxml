@@ -26,61 +26,58 @@
     </view>
 
     <view>
-        <view id="right1">
-            <text class="right2">当日数据</text>
-            <text class="right2">任务数：{{}}</text>
-            <text class="right2">收益数：{{}}</text>
+        <view class="right1 bar-bg">
+            <text>当日数据</text>
+            <text>任务数：{{}}</text>
+            <text>收益数：{{}}</text>
         </view>
 
-        <view id="right33">
-            <text class="right3">综合排序{{}}</text>
-            <image src="/image1/pai.png"></image>
-            <text class="right3">金额{{}}</text>
-            <image src="/image1/金额.png"></image>
-            <text class="right3">时间{{}}</text>
-            <image src="/image1/时间.png"></image>
-            <text class="right3">地区{{}}</text>
-            <image src="/image1/地区.png"></image>
+        <view class="right2">
+            <view>
+                <text class="right3">综合排序{{}}</text>
+                <image src="/image1/pai.png"></image>
+            </view>
+            <view>
+                <text class="right3">金额{{}}</text>
+                <image src="/image1/金额.png"></image>
+            </view>
+            <view>
+                <text class="right3">时间{{}}</text>
+                <image src="/image1/时间.png"></image>
+            </view>
+            <view>
+                <text class="right3">地区{{}}</text>
+                <image src="/image1/地区.png"></image>
+            </view>
         </view>
 
-        <navigator url="../xqym/xqym">
-            <view id="form">
-                <form id="form1">
-                    <view class="form2">
+    
+
+        <view class="list">
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
                         <image src="/image1/2.png"></image>
                     </view>
-                    <view class="form3">    
-                        <view>
-                            <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">顺丰招寒假工十 三元一小时</text>
+                            <text class="item2">13元元/1小时</text>
                         </view>
-                        <view>
-                            <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
+                        <view class="row2">
+                            <text class="item1">黄埔</text> 
+                            <text class="item2">长期接受报名</text>
                         </view>
-                        <view>
-                            <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item2">置顶</text>
+                            <text class="item3">签约企业</text>
                         </view>
                     </view>    
-                </form>
-            </view>
-        </navigator>
+            </navigator>
 
-        <view id="form">
-            <form id="form1">
-                <view class="form2">
-                    <image src="/image1/2.png"></image>
-                </view>
-            <view class="form3">    
-                <view>
-            <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
-                </view>
-                    <view>
-            <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
-                </view>
-                    <view>
-            <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
-                </view>
-            </view>    
-            </form>
         </view>
+       
+
+      
     </view>
 </view>
