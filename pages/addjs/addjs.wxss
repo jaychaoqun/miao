@@ -1,69 +1,66 @@
 #but{
   position: relative;
+  width: 100%;
+  height: 100%
 }
+
 #vie1{
-font-size: 14px;
-color: slategray;
+  font-size: 14px;
+  color: slategray;
+  display: flex;
+  justify-content: space-between;
 }
+
 #vie1 image{
   width: 20px;
   height: 20px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
-.box {
-position: absolute;
-top: 0;
-left: 44%;
-}
-.box1 {
-  position: absolute;
-  right: 0;
-  top: 0px;
-}
-#vie2{
-  margin-top: 10%;
-  color: gray;
-  font-size: 12px;
-  margin-bottom: 3%;
 
+#vie2{
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
 }
-.boxx {
-position: absolute;
-left: 42%;
-bottom: 0;
-}
-.boxx1 {
-  position: absolute;
-  left: 83%;
-  bottom: 0;
-}
-.boxx2{
-  padding-left: 10px;
-}
+
+
+
 #right1{
     border-top:solid 1px gray; 
     border-bottom:solid 1px gray;
+    background: #CDD2D4;
+    display: flex;
+    justify-content: space-around;
 }
 .right2{
-    margin-left: 13%;
-    font-size: 12px;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 14px;
     color: gray;
 }
+
 #right33{
-    background: ;
+    background: #F0F0F2;
     position: relative;
+    height: 70rpx;
+    line-height: 70rpx;
 }
 #right33 image{
     position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 28%;
+    width: 14px;
+    height: 14px;
+    top: 30%;
 }
 .right3{
     margin-left: 12%;
-    font-size: 12px;
+    font-size: 14px;
     color: gray;
 }
+
+
 #form{
     height: 90px;
     border-top:solid 1px #ccc; 

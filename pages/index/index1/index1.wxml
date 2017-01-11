@@ -1,41 +1,42 @@
 <view id="hrfot">
-  <view class="hier">兴趣圈</view>
-
-  <view>
-     <view>
-         <view id="rous">
+    <view class="hier">兴趣圈</view>
+    <view>
+        <view id="rous">
             <view class="rous1"><image src="/image1/ren.png"></image></view>
-            <view class="rous2">产品党
+            <view class="rous2">
+                产品党
                 <view class="rous2-1">公开圈  21位成员</view>
             </view>
             <button class="rous3">加入圈子</button>
-         </view>
-         <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
-     </view>
-  </view>
+        </view>
+        <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
+    </view>
 
-  <view class="hier1">特工排行</view>
-  <view class="footer">
-         <view class="footer1">
-                <view class="footer5">第一名</view>
-               <view class="footer5">小明</view>
-               <view class="footer5">收益：</view><view class="footer5">接单：</view>
-            </view>
-            <view class="footer2">
-                <view class="footer5">第二名</view>
-                <view class="footer5">小明</view>
-               <view class="footer5">收益：</view><view
-               class="footer5">接单：</view>
-            </view>
-            <view class="footer3">
-                <view class="footer5">第三名</view>
-               <view class="footer5">小明</view>
-               <view class="footer5">收益：</view><view class="footer5">接单：</view>
-            </view>
-            <view class="footer4">
-               <view class="footer5">第四名</view>
-               <view class="footer5">小明</view>
-               <view class="footer5">收益：</view><view class="footer5">接单：</view>
-            </view>
-            </view>
+    <view class="hier">特工排行</view>
+    <view class="footer">
+        <view class="footer1">
+            <view class="footer5">第一名</view>
+            <view class="footer5">小明</view>
+            <view class="footer5">收益：</view>
+            <view class="footer5">接单：</view>
+        </view>
+        <view class="footer2">
+            <view class="footer5">第二名</view>
+            <view class="footer5">小明</view>
+            <view class="footer5">收益：</view>
+            <view class="footer5">接单：</view>
+        </view>
+        <view class="footer3">
+            <view class="footer5">第三名</view>
+            <view class="footer5">小明</view>
+            <view class="footer5">收益：</view>
+            <view class="footer5">接单：</view>
+        </view>
+        <view class="footer4">
+            <view class="footer5">第四名</view>
+            <view class="footer5">小明</view>
+            <view class="footer5">收益：</view>
+            <view class="footer5">接单：</view>
+        </view>
+    </view>
 </view>

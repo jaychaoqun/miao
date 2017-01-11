@@ -1,7 +1,11 @@
+page{
+    background:#F0EFF5;
+}
+
 #rous{
+    background: #fff;
     display: -webkit-flex;
-    margin: 40rpx 20rpx 0;
-    height: 140rpx;
+    height: 160rpx;
     border-bottom: solid 1px #ccc;
 }
 
@@ -10,7 +14,8 @@
     width: 130rpx;
     height: 130rpx;
     border: solid 1px #ccc;
-    border-radius:30px; 
+    border-radius:50px; 
+    margin: 20rpx;
 }
 .rous1 image{
       width: 130rpx;
@@ -19,12 +24,12 @@
 
 .rous2{
     flex: 3;
-    margin: 10rpx 10rpx;
+    margin: 20rpx 10rpx;
     font-size: 14px;
 }
 .rous2-1{
     font-size: 12px;
-    color: #ccc;
+    color: #888;
     margin:10rpx 0; 
 }
 .rous3{
@@ -32,14 +37,7 @@
     height: 25rpx;
     line-height: 25rpx;
     font-size: 25rpx;
-    padding: 0;
-    background: whitesmoke;
-    color: #fff;
-    margin: 0;
+    color: #888;
     text-align: center;
-}
-.rous4{
-    color: #ccc;
-    font-size: 30rpx;
-    margin: 20rpx;
+    margin: 15rpx;
 }

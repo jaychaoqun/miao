@@ -1,96 +1,86 @@
 <!--addjs.wxml-->
 <view id="but">
-<view id="vie1">
-   <view class="box2">
-    <navigator url="../index/grzx/grzx">
-<image src="/image1/4.png"></image>
-</navigator>
-  </view>
-   <view class="box">靠谱喵</view>
-<view class="box1">
-<navigator url="../index/index2/index2">
-<image src="/image1/3.png"></image>
-</navigator>
-</view>
-</view>
-<view id="vie2">
-   <view class="boxx2">
-   <navigator url="../index/index"hover-class="className">附近</navigator>
-   </view>
-   <view class="boxx">
-   <navigator url="../logs/logs"hover-class="className">一键招人</navigator>
-   </view>
-    <view class="boxx1">
-    <navigator url="../addjs/addjs"hover-class="className">接单大厅</navigator>
-    </view>
-</view>
-</view>
-<view>
-    <view id="right1">
-        <text class="right2">当日数据：{{}}</text>
-        <text class="right2">任务数：{{}}</text>
-        <text class="right2">收益数：{{}}</text>
-    </view>
-    <view id="right33">
-         <text class="right3">综合排序{{}}</text>
-         <image src="/image1/pai.png"></image>
-         <text class="right3">金额{{}}</text>
-         <image src="/image1/金额.png"></image>
-         <text class="right3">时间{{}}</text>
-         <image src="/image1/时间.png"></image>
-          <text class="right3">地区{{}}</text>
-          <image src="/image1/地区.png"></image>
+    <view id="vie1">
+        <view>
+            <navigator url="../index/grzx/grzx">
+                <image src="/image1/4.png"></image>
+            </navigator>
+        </view>  
+        <view>
+            <navigator url="../index/index2/index2">
+                <image src="/image1/3.png"></image>
+            </navigator>
+        </view>
     </view>
 
-
-<navigator url="../xqym/xqym">
-
-    <view id="form">
-        <form id="form1">
-           <view class="form2">
-                <image src="/image1/2.png"></image>
-           </view>
-       <view class="form3">    
-            <view>
-        <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
-            </view>
-               <view>
-        <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
-            </view>
-               <view>
-        <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
-            </view>
-        </view>    
-        </form>
+    <view id="vie2">
+        <view >
+            <navigator url="../index/index" open-type="redirect" hover-class="className">附近</navigator>
+        </view>
+        <view>
+            <navigator url="../logs/logs" open-type="redirect" hover-class="className">一键招人</navigator>
+        </view>
+        <view class="className">
+            <navigator url="" open-type="redirect" hover-class="className">接单大厅</navigator>
+        </view>
     </view>
 
-    
-</navigator>
+    <view>
+        <view id="right1">
+            <text class="right2">当日数据</text>
+            <text class="right2">任务数：{{}}</text>
+            <text class="right2">收益数：{{}}</text>
+        </view>
 
+        <view id="right33">
+            <text class="right3">综合排序{{}}</text>
+            <image src="/image1/pai.png"></image>
+            <text class="right3">金额{{}}</text>
+            <image src="/image1/金额.png"></image>
+            <text class="right3">时间{{}}</text>
+            <image src="/image1/时间.png"></image>
+            <text class="right3">地区{{}}</text>
+            <image src="/image1/地区.png"></image>
+        </view>
 
+        <navigator url="../xqym/xqym">
+            <view id="form">
+                <form id="form1">
+                    <view class="form2">
+                        <image src="/image1/2.png"></image>
+                    </view>
+                    <view class="form3">    
+                        <view>
+                            <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
+                        </view>
+                        <view>
+                            <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
+                        </view>
+                        <view>
+                            <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
+                        </view>
+                    </view>    
+                </form>
+            </view>
+        </navigator>
 
-    <view id="form">
-        <form id="form1">
-           <view class="form2">
-                <image src="/image1/2.png"></image>
-           </view>
-       <view class="form3">    
-            <view>
-        <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
-            </view>
-               <view>
-        <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
-            </view>
-               <view>
-        <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
-            </view>
-        </view>    
-        </form>
+        <view id="form">
+            <form id="form1">
+                <view class="form2">
+                    <image src="/image1/2.png"></image>
+                </view>
+            <view class="form3">    
+                <view>
+            <text class="form3-1">顺丰招寒假工十 三元一小时</text><text class="form3-2">13元元/1小时</text>
+                </view>
+                    <view>
+            <text class="form3-3">黄埔</text><text class="form3-4">长期接受报名</text>
+                </view>
+                    <view>
+            <text class="form3-5">刚刚</text><text class="form3-6">置顶</text><text class="form3-7">签约企业</text>
+                </view>
+            </view>    
+            </form>
+        </view>
     </view>
-
-
-
-
-
-
 </view>
