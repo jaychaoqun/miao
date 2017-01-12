@@ -1,7 +1,0 @@
-/* pages/jianzhi/jianzhi.wxss */
-.weui-cell__bd{
-    font-size:12px;
-}
-.weui-cells__title{
-    background-color: #F5F5F5;
-}
