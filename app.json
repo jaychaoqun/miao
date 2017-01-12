@@ -8,8 +8,8 @@
     "pages/index/index1/index1",
     "pages/index/index2/index2",
     "pages/index/grzx/grzx",
-    "pages/jianzhi/jianzhi"
-    
+    "pages/jianzhi/jianzhi",
+    "pages/logs/guanl/guanl"
   ],
   "window":{
     "backgroundTextStyle":"light",
