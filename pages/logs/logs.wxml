@@ -38,11 +38,15 @@
     
     <scroll-view id="tab" scroll-y="true" style="height:{{ scroll_height }}">
         <view class="tab1 mao-font" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
-        <view class="tab3" wx:for="{{['查看']}}">{{item}}</view>
+        
+        <view class="tab3" wx:for="{{['查看']}}">
+        <navigator url="guanl/guanl">{{item}}</navigator>
+        </view>
         </view>
     </scroll-view>
 
-     <navigator url="fabzp/fabzp">
+    
+    <navigator url="../jianzhi/jianzhi">
         <button class="butt">发布招聘</button>
     </navigator>
 </view>

@@ -1,15 +1,14 @@
 {
   Page({
     data:{
-      date:'点击添加',
-      time:'点击添加',
+      date:'+点击添加',
+      time:'+点击添加',
       isAgree:false,
       isAgree1:false,
       countries: ["嘉兴", "上海", "北京"],
       countryIndex: 0,
       checkboxItems: [
             {name: '经验不限', value: '0', checked: true},
-            {name: '普通话', value: '1'},
             {name: '性别不限', value: '2'},
             {name: '学历不限', value: '3'}
         ],

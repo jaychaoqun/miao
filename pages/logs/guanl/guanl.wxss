@@ -1,0 +1,54 @@
+/* pages/logs/guanl/guanl.wxss */
+page,
+.page{background: #fff;}
+
+.page__bd{
+    padding-bottom: 0;
+
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+.weui-cell__hd{
+    margin-right: 10px;
+    position: relative;
+}
+.weui-cell__hd image{
+    width: 50px; 
+    height: 50px; 
+    display: block
+}
+.weui-cell__bd text{
+    font-size: 14px;
+    margin-left: 10px;
+    color: darkslategrey;
+}
+.weui-cell__bd .text1{
+    color: orange;
+    float: right;
+}
+.text{
+    border-bottom: 1rpx solid #ccc;
+}
+.text2{
+    font-size: 13px;
+    color: #888888;
+    margin: 10px 0 0 8px;
+}
+.box{
+    display: flex;
+}
+.box view{
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    color: orange;
+    border: solid 1rpx orange;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius:5px; 
+}
+.weui-cells_after-title{
+    margin-top: 3px;
+}
