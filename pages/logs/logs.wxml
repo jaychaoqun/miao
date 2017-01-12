@@ -1,9 +1,9 @@
 <!--logs.wxml-->
 <view id="but">
-    <view id="vie1">
+    <view class="vie1">
         <view>
-            <navigator url="../index/grzx/grzx">
-                <image src="/image1/4.png"></image>
+            <navigator url="../personal/personal">
+                <image src="/image1/ren1.png"></image>
             </navigator>
         </view>  
         <view>
@@ -13,16 +13,10 @@
         </view>
     </view>
 
-    <view id="vie2">
-        <view>
-            <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
-        </view>
-        <view class="mao-active">
-            <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-active">一键招人</navigator>
-        </view>
-        <view>
-            <navigator url="../addjs/addjs" open-type="redirect" hover-class="mao-active" class="mao-tab-font" >接单大厅</navigator>
-        </view>
+    <view class="vie2">
+        <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
+        <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-active">一键招人</navigator>
+        <navigator url="../addjs/addjs" open-type="redirect" hover-class="mao-active" class="mao-tab-font" >接单大厅</navigator>
     </view>
 
     <view id="lef">
@@ -36,13 +30,18 @@
         <view class="lef4"><image src="/image1/ren1.png"></image></view>
     </view>
     
-    <scroll-view id="tab" scroll-y="true" style="height:{{ scroll_height }}">
-        <view class="tab1 mao-font" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
-        <view class="tab3" wx:for="{{['查看']}}">{{item}}</view>
+    <scroll-view class="board" scroll-y="true" style="height:{{ scroll_height }}">
+        <view wx:for="{{ tap }}">
+            <navigator url="">
+                <view class="board-item">
+                    <text> {{ item }} </text>
+                    <image src="../../image1/arrowright.png" mode="aspectfill"></image>
+                </view>
+            </navigator>
         </view>
     </scroll-view>
 
-     <navigator url="fabzp/fabzp">
+     <navigator url="../jianzhi/jianzhi">
         <button class="butt">发布招聘</button>
     </navigator>
 </view>

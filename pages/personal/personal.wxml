@@ -1,0 +1,69 @@
+<view class="main">
+  <view class="head">
+    <view class="head_top">
+      <image src="{{userInfo.avatarUrl}}" background_size="cover"></image>
+      <text>{{userInfo.nickName}}</text>
+    </view>
+    <view class="head_botton">
+      <view>
+        <image src="/image1/1.png"></image>
+        <text>我的钱包</text>
+      </view>
+      <view class="bor"></view>
+      <view><image src="/image1/1.png"></image>fdasfasfa</view>
+    </view>
+  </view>
+
+  <view class="body">
+
+    <view class="apply">
+      <view class="apply_i1">
+        <text>我的申请</text>
+      </view>
+      <view class="apply_i2">
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已报名</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已录用</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已到港</text>
+        </view>
+        <view class="i2_2">
+          <image src="/image1/1.png"></image>
+          <text>已结算</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="apply">
+      <view class="apply_i1">
+        <text>我的申请</text>
+      </view>
+      <view class="apply_i2">
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已报名</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已录用</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/1.png"></image>
+          <text>已到港</text>
+        </view>
+        <view class="i2_2">
+          <image src="/image1/1.png"></image>
+          <text>已结算</text>
+        </view>
+      </view>
+    </view>
+    
+    <view class="collection"></view>
+  </view>
+</view>

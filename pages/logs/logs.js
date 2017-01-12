@@ -2,8 +2,8 @@
 var util = require('../../utils/util.js')
 Page({
   data: {
-     tap:['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨'],
-     scroll_height:"500rpx"
+     tap:[],
+     scroll_height:"400px"
   },
   onLoad: function () {
     this.setData({
@@ -12,16 +12,19 @@ Page({
       })
     })
 
-      try {
+    //获取不同手机对应的对应page高度。
+    try {
       var res = wx.getSystemInfoSync()
-      var h = res.windowHeight-140;
+      var h = res.windowHeight-180;
       this.setData({scroll_height:h+"px"});
-      
-    
     } catch (e) {
       // Do something when catch error
     }
 
-
+    var arr = []; 
+    for (let i = 0; i <10; i++) { 
+      arr.push("保洁阿姨");   
+    }
+    this.setData({tap:arr});  
   }
 })

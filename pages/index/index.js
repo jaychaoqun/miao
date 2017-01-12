@@ -1,30 +1,39 @@
 Page({
   data:{
     lod:false,
-     markers: [{
+    markers: [{
       iconPath: "/image1/diqu1.png",
       latitude: 30.737290,
       longitude: 120.819510,
       width:30,
       height:30,
       scale:16
-    }]
+    }],
+    scroll_height:"500rpx"
   }, 
   onLoad:function(options){
-    // 生命周期函数--监听页面加载
+    //获取不同手机对应的对应page高度。
+    try {
+      var res = wx.getSystemInfoSync()
+      var h = res.windowHeight-140;
+      console.log();
+      this.setData({scroll_height:h+"px"});
+    } catch (e) {
+      // Do something when catch error
+    }
   },
-    getpos:function(){
-     wx.getLocation({
-    type: 'gcj02',
-    success: function(res) {
-    var latitude = res.latitude
-    var longitude = res.longitude
+  getpos:function(){
+    wx.getLocation({
+      type: 'gcj02',
+      success: function(res) {
+      var latitude = res.latitude
+      var longitude = res.longitude
 
-          wx.openLocation({
-            latitude: latitude,
-            longitude: longitude,
-            scale: 28
-          })
+      wx.openLocation({
+        latitude: latitude,
+        longitude: longitude,
+        scale: 28
+      })
   }
 })
   },
