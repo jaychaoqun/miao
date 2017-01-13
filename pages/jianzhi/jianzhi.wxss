@@ -22,3 +22,5 @@ page{background: #fff;}
     background-color: #FB8E4D;
     color: #fff;
 }
+.weui-label{color:#000;}
+.weui-input{color:#000}
