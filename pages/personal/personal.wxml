@@ -5,14 +5,16 @@
       <text>{{userInfo.nickName}}</text>
     </view>
     <view class="head_botton">
-      <view class="h1">
-        <image src="/image1/wallet.png"></image>
-        <text>我的钱包</text>
-      </view>
+      <navigator url="../wallet/wallet">
+        <view class="h1">
+          <image src="/image1/wallet.png"></image>
+          <text>我的钱包</text>
+        </view>
+      </navigator>
       <view class="bor"></view>
       <view  class="h1">
         <image src="/image1/star.png"></image>
-        <text>收藏</text>
+        <text>我的收藏</text>
       </view>
     </view>
   </view>

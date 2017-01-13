@@ -26,6 +26,13 @@ page{
 .mao-font{font-size:28rpx;color: #000;}
 .bar-bg{background: #f8f8f8;height: 80rpx;}
 
+.bor_orange{
+  border-bottom: 4rpx solid #f15838;
+}
+
+
+
+
 
 .vie1,.vie2{
   background-color: #fff;

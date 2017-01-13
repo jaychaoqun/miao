@@ -9,7 +9,8 @@
     "pages/index/grzx/grzx",
     "pages/jianzhi/jianzhi",
     "pages/personal/personal",
-    "pages/logs/guanl/guanl"
+    "pages/wallet/wallet",
+    "pages/logs/guanl/guanl"  
   ],
   "window":{
     "backgroundTextStyle":"light",
