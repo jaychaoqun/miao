@@ -1,19 +1,19 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/recruit/recruit",
     "pages/addjs/addjs",
     "pages/xqym/xqym",
     "pages/index/index1/index1",
     "pages/index/index2/index2",
     "pages/index/grzx/grzx",
     "pages/jianzhi/jianzhi",
-    "pages/logs/guanl/guanl"
+    "pages/recruit/guanl/guanl"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fb8e4d",
     "navigationBarTitleText": "靠谱喵",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

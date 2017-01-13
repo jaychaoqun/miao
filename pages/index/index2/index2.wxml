@@ -1,5 +1,5 @@
 <view id="rous">
-    <view class="rous1"><image src="/image1/ren.png"></image></view>
+    <view class="rous1"><image src="/image1/t.jpg"></image></view>
     <view class="rous2">兼职咨询
         <view class="rous2-1">有最新的兼职咨询，南沙彩虹跑活动兼职。</view>
     </view>
@@ -9,8 +9,19 @@
 
 <view id="rous">
     <view class="rous1"><image src="/image1/ren.png"></image></view>
-    <view class="rous2">兼职咨询
+    <view class="rous2">小编趣事
         <view class="rous2-1">有最新的兼职咨询，南沙彩虹跑活动兼职。</view>
     </view>
-    <text class="rous3">2016-1-27</text>
+    <text class="rous3">2017-1-27</text>
 </view>
+
+
+
+
+  <view id="rous">
+    <view class="rous1"><image src="/image1/t.jpg"></image></view>
+    <view class="rous2">版本更新
+        <view class="rous2-1">有最新的兼职咨询，南沙彩虹跑活动兼职。</view>
+    </view>
+    <text class="rous3">2017-1-10</text>
+  </view>

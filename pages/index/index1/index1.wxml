@@ -1,13 +1,53 @@
 <view id="hrfot">
-    <view class="hier">兴趣圈</view>
-    <view>
+    
+    <view class="rou">
         <view id="rous">
-            <view class="rous1"><image src="/image1/ren.png"></image></view>
+            <view class="rous1"><image src="/image1/t.jpg"></image></view>
             <view class="rous2">
                 产品党
-                <view class="rous2-1">公开圈  21位成员</view>
+                <view class="rous2-1">公开圈  4343221位成员</view>
             </view>
             <button class="rous3">加入圈子</button>
+        </view>
+        <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
+    </view>
+
+
+
+     <view class="rou">
+        <view id="rous">
+            <view class="rous1"><image src="/image1/t.jpg"></image></view>
+            <view class="rous2">
+                手机摄影
+                <view class="rous2-1">公开圈  4343221位成员</view>
+            </view>
+            <button class="rous3">加入圈子</button>
+        </view>
+        <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
+    </view>
+
+
+     <view class="rou">
+        <view id="rous">
+            <view class="rous1"><image src="/image1/t.jpg"></image></view>
+            <view class="rous2">
+                极限运动
+                <view class="rous2-1">公开圈  4343221位成员</view>
+            </view>
+            <button class="rous3-1">已加入</button>
+        </view>
+        <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
+    </view>
+    
+    
+      <view class="rou">
+        <view id="rous">
+            <view class="rous1"><image src="/image1/t.jpg"></image></view>
+            <view class="rous2">
+                汽车之家
+                <view class="rous2-1">公开圈  4343221位成员</view>
+            </view>
+            <button class="rous3-1">已加入</button>
         </view>
         <view class="rous4">多看看，多想想，好产品需要打磨。好产品经理也一样,欢迎PM们来学习。</view>
     </view>

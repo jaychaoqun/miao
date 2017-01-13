@@ -4,26 +4,27 @@
   height: 100%
 }
 
-#vie1{
+.vie1{
   font-size: 14px;
   color: slategray;
   display: flex;
   justify-content: space-between;
+  height: 60rpx;
 }
 
-#vie1 image{
+.vie1 image{
   width: 20px;
   height: 20px;
-  margin: 0 10px;
+  margin: 16rpx 20rpx;
 }
 
-#vie2{
+.vie2{
   color: gray;
   font-size: 14px;
-  font-weight: bold;
   display: flex;
   justify-content: space-around;
-  margin: 10px 0;
+  padding: 10px 0;
+  height: 60rpx;
 }
 
 
@@ -36,7 +37,7 @@
 .right1 text{
     height: 80rpx;
     line-height: 80rpx;
-    font-size: 14px;
+    font-size: 30rpx;
     color: gray;
 }
 
@@ -54,15 +55,14 @@
     line-height: 70rpx;
 }
 .right2 view image{
-    width: 16px;
-    height: 16px;
-   margin-top: 8px;
+    width: 11px;
+    height: 11px;
 }
 
 
 .right3{
-    margin-left: 12%;
-    font-size: 14px;
+    margin-left: 22%;
+    font-size: 13px;
     color: gray;
 }
 
@@ -83,10 +83,10 @@
 }
 
 .list .item .left image{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius:40px;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 .list .item .right{
@@ -97,12 +97,6 @@
 .list .item .right view{
     flex:1;
 }
-
-.list .item .right view text{
-    
-}
-
-
 .row1{
     display: flex;
     padding-top: 10rpx;
@@ -120,9 +114,7 @@
     text-align: right;
 }
 
-.row2{
-    
-}
+
 .row2 .item1{
     color:#9a9a9a;
     font-size: 13px;
@@ -132,24 +124,22 @@
     font-size: 13px;
     margin-left: 20rpx;
 }
-.row3{
-    
-}
+
 .row3 .item1{
     color:#9a9a9a;
     font-size: 13px;
 }
 .row3 .item2{
     font-size: 12px;
-    color:#ff9f2c;
-    border: solid 1px #ff9f2c;
+    color:#FB8E4D;
+    border: solid 1rpx #FB8E4D;
     margin-left: 10px;
     border-radius:2px; 
 }
 .row3 .item3{
    font-size: 12px;
-    color: #ff9f2c;
-    border: solid 1px #ff9f2c;
+    color: #FB8E4D;
+    border: solid 1rpx #FB8E4D;
     margin-left: 10px;
     border-radius:2px; 
 }

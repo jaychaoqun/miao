@@ -1,5 +1,6 @@
 Page({
   data:{
+    scroll_height:"500rpx",
     lod:false,
      markers: [{
       iconPath: "/image1/diqu1.png",
@@ -10,8 +11,17 @@ Page({
       scale:16
     }]
   }, 
-  onLoad:function(options){
-    // 生命周期函数--监听页面加载
+  onLoad:function(){
+    try {
+      var res = wx.getSystemInfoSync()
+      var h = res.windowHeight-110;
+      this.setData({scroll_height:h+"px"});
+      
+    
+    } catch (e) {
+      // Do something when catch error
+    }
+
   },
     getpos:function(){
      wx.getLocation({

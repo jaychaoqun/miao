@@ -4,7 +4,7 @@
           <view class="weui-cells__title">订单详情</view>
           <view class="weui-cells weui-cells_after-title">
                  <view class="weui-cell">
-                    <view class="weui-cell__bd"style="font-size:28rpx;color:#ccc;">
+                    <view class="weui-cell__bd"style="font-size:30rpx;color:#ccc;">
                     财务报表审计各类经济业务审计和鉴证业务。
                     企业税务筹划财务管理咨询内部控制检查和控制度设计业务.
                     </view>
@@ -31,10 +31,10 @@
                 <view class="weui-tab" hidden="{{activeIndex != 1}}">
 
                 <!--列表录用-->
-        <view class="weui-cells weui-cells_after-title">
+        
             <view class="weui-cell">
                 <view class="weui-cell__hd">
-                    <image src="/image1/1.png"/>
+                    <image src="/image1/t.jpg"/>
                 </view>
                 <view class="weui-cell__bd">
                     <view class="text">
@@ -53,17 +53,17 @@
                          <view>已现金结算</view>
                          <view>取消录用</view>
                          <view>手动点到</view>
-                         <view style=" background-color: greenyellow;color:#fff;border:none;">发工资</view>
+                         <view style="width:140rpx; height：45rpx; background-color:#FB8E4D;color:#fff;border:none;">发工资</view>
                     </view>
                 </view>
             </view>
-      </view>
+     
  
 
-       <view class="weui-cells weui-cells_after-title">
+       
             <view class="weui-cell">
                 <view class="weui-cell__hd">
-                    <image src="/image1/1.png"/>
+                    <image src="/image1/t.jpg"/>
                 </view>
                 <view class="weui-cell__bd">
                     <view class="text">
@@ -82,11 +82,11 @@
                          <view>已现金结算</view>
                          <view>取消录用</view>
                          <view>手动点到</view>
-                         <view style=" background-color: greenyellow;color:#fff;border:none;">发工资</view>
+                         <view style="width:140rpx; height：45rpx;background-color: #FB8E4D;color:#fff;border:none;">发工资</view>
                     </view>
                 </view>
             </view>
-      </view>
+      
 
 
 

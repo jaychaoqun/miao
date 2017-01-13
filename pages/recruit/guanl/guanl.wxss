@@ -20,16 +20,16 @@ page,
     display: block
 }
 .weui-cell__bd text{
-    font-size: 14px;
+    font-size: 30rpx;
     margin-left: 10px;
     color: darkslategrey;
 }
 .weui-cell__bd .text1{
-    color: orange;
+    color: #FB8E4D;
     float: right;
 }
 .text{
-    border-bottom: 1rpx solid #ccc;
+    border-bottom: 1rpx solid #f5f5f5;
 }
 .text2{
     font-size: 13px;
@@ -40,14 +40,16 @@ page,
     display: flex;
 }
 .box view{
+    width: 140rpx;
+    height: 40rpx;
     flex: 1;
     text-align: center;
     font-size: 12px;
-    color: orange;
-    border: solid 1rpx orange;
-    padding: 5px;
+    color: #FB8E4D;
+    border: solid 1rpx #FB8E4D;
+    padding: 5rpx;
     margin-left: 2px;
-    border-radius:5px; 
+    border-radius:5rpx; 
 }
 .weui-cells_after-title{
     margin-top: 3px;

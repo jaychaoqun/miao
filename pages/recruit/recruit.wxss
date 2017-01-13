@@ -1,16 +1,14 @@
-page{
-  background-color:#fff;
-}
-#but{
+
+.but{
   display: flex;
   flex-direction: column;
 }
 
-#vie1,#vie2,#lef{
+.vie1,.vie2,.lef{
   background-color: #fff;
 }
 
-#vie1{
+.vie1{
   font-size: 14px;
   color: slategray;
   display: flex;
@@ -18,13 +16,13 @@ page{
   height: 60rpx;
 }
 
-#vie1 image{
+.vie1 image{
   width: 20px;
   height: 20px;
-  margin: 0 10px;
+  margin: 16rpx 20rpx;
 }
 
-#vie2{
+.vie2{
   color: gray;
   font-size: 14px;
   display: flex;
@@ -34,7 +32,7 @@ page{
 }
 
 
-#lef{
+.lef{
   position: relative;
   height: 25px;
   line-height: 80rpx;
@@ -45,7 +43,7 @@ page{
   height: 80rpx;
   
 }
-#lef image{
+.lef image{
   width: 25px;
   height: 25px;
   margin-top: 18rpx;
@@ -68,11 +66,11 @@ page{
 }
 
 
-#tab{
+.tab{
   padding:0 5rpx;
   flex:1;
 }
-#tab .tab1{
+.tab .tab1{
   height: 40px;
   line-height: 40px;
   font-size: 13px;
@@ -80,14 +78,15 @@ page{
   padding: 0 0 0 20rpx;
   border-bottom: 1rpx solid #f2f2f2;
 }
-#tab .tab3{
+.tab .tab3{
   float: right;
   margin: 0 10px 0 0;
 }
 .butt{
   margin-top: 20rpx;
   height: 80rpx;
-  background: orange;
+  line-height: 80rpx;
+  background: #FB8E4D;
   font-size: 14px;
   color: #fff;
   position: fixed;

@@ -3,14 +3,14 @@
    <!--表单-->
     
     <view class="weui-cells__title">招聘标题</view>
+           
             <view class="weui-cell weui-cell_input">
-               
                     <view class="weui-label">兼职标题</view>
                 
-                <view class="weui-cell__bd">
+               <view class="weui-cell__bd">
                     <input class="weui-input" placeholder="请输入兼职标题"placeholder-style="color:#ccc;"/>
                 </view>
-            </view>
+             </view>
     
        <!--日期时间选着-->
        <view class="weui-cell weui-cell_input">
@@ -80,7 +80,7 @@
                     <input class="weui-input" placeholder="请输入有效数字"placeholder-style="color:#ccc;"/>
                   </view>
                     <view class="weui-cell__ft">
-                        <view type="warn" size="23">人</view>
+                        <view type="warn" size="5">人</view>
                     </view>
             </view>
 
@@ -93,7 +93,7 @@
                     <input class="weui-input" placeholder="请输入有效数字"placeholder-style="color:#ccc;"/>
                 </view>
                 <view class="weui-cell__ft">
-                    <view type="warn" size="23">天/元</view>
+                    <view type="warn" size="5">天/元</view>
                 </view>
             </view>
         </view>
@@ -204,7 +204,7 @@
       
                 </view>
            </view>
-      </view>
+     </view>
 
 
 
@@ -224,8 +224,8 @@
             </label>
         </checkbox-group>
 
-        <view class="weui-btn-area">
-            <button class="weui-btn" type="primary" bindtap="showTopTips">确定</button>
-        </view>
+       
+            <button class="weui-btn list" bindtap="showTopTips">确定</button>
+        
           
 

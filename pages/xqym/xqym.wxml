@@ -1,34 +1,45 @@
 <view id="title">
      <view id="btm">{{btm}}</view>
      <view id="ty"><text id="yt">{{yt}}</text>元/天</view>
-    <view class="neir">详情地址：<text>{{}}</text><image src="/image1/diqu1.png"></image></view>
-    <view class="neir">招聘人数：<text>{{}}</text></view>
-    <view class="neir">性别要求：<text>{{}}</text></view>
-    <view class="neir">发布机构：<text>{{}}</text></view>
-    <view class="neir">工作日期：<text>{{}}</text></view>
-    <view class="neir">上班时段：<text>{{}}</text></view>
-    <view class="neir">联系人：<text>{{}}</text></view>
-    <view class="neir">联系电话：<text>{{}}</text><image class="image1" src="/image1/拨打电话.png"></image></view>
+    <view class="neir">
+        <text>详情地址：</text><text>嘉兴南湖昌盛南路智慧产业创新园</text>
+        <image src="/image1/diqu1.png"></image>
+    </view>
+    <view class="neir">
+        <text>招聘人数：</text><text>1</text>
+    </view>
+    <view class="neir">
+       <text>性别要求：</text><text>无</text>
+    </view>
+    <view class="neir">
+        <text>发布机构：</text><text>浙江海之拓数据科技有限公司</text>
+    </view>
+    <view class="neir">
+        <text>工作日期：</text><text>2017-1-30</text>
+    </view>
+    <view class="neir">
+        <text>上班时段：</text><text>8：00-17：00</text>
+    </view>
+    <view class="neir">
+        <text>联系人：</text><text>王先生</text>
+    </view>
+    <view class="neir">
+        <text>联系电话：</text><text>18712348765</text>
+        <image class="image1" src="/image1/拨打电话.png"></image>
+    </view>
 </view>
 
 
 <view class="bode">
 <view class="bode1"><image src="/image1/biaoqian.png"></image>工作内容:</view>
-  <view class="bode2">1：</view>
-  <view class="bode2">2：</view>
-  <view class="bode2">3：</view>
-  <view class="bode2">4：</view>
+  <view class="bode2"><text>1:</text><text>浙江移动10086呼入客服代表，负责接听移动用户对产品和业务的售前咨询、售后服务、疑难解答、投诉处理等服务。</text></view>
 </view>
 
 
 <view class="boxy">
 <view class="boxy1"><image src="/image1/biaoqian.png"></image>工作咨询:</view>
-  <view class="boxy2">1：</view>
-   <view class="boxy2">1：</view>
-    <view class="boxy2">1：</view>
-     <view class="boxy2">1：</view>
-      <view class="boxy2">1：</view>
-
+  <view class="boxy2"><text>1:</text><text>可接收应届生</text></view>
+  <view class="boxy2"><text>2:</text><text>签订劳动合同后缴纳五险一金，节假日各类福利齐全</text></view>
 </view>
 
 

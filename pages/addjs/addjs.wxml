@@ -1,6 +1,6 @@
 <!--addjs.wxml-->
-<view id="but">
-    <view id="vie1">
+<view class="but">
+    <view class="vie1">
         <view>
             <navigator url="../index/grzx/grzx">
                 <image src="/image1/4.png"></image>
@@ -13,28 +13,28 @@
         </view>
     </view>
 
-    <view id="vie2">
-        <view >
-            <navigator url="../index/index" open-type="redirect" hover-class="className">附近</navigator>
+    <view class="vie2">
+        <view>
+            <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
         </view>
         <view>
-            <navigator url="../logs/logs" open-type="redirect" hover-class="className">一键招人</navigator>
+            <navigator url="../recruit/recruit" open-type="redirect" hover-class="mao-active">一键招人</navigator>
         </view>
-        <view class="className">
-            <navigator url="" open-type="redirect" hover-class="className">接单大厅</navigator>
+        <view class="mao-active">
+            <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-tab-font"class="mao-active" >接单大厅</navigator>
         </view>
     </view>
 
     <view>
         <view class="right1 bar-bg">
-            <text>当日数据</text>
+            <text>当日数据：</text>
             <text>任务数：{{}}</text>
             <text>收益数：{{}}</text>
         </view>
 
         <view class="right2">
             <view>
-                <text class="right3">综合排序{{}}</text>
+                <text class="right3">排序{{}}</text>
                 <image src="/image1/pai.png"></image>
             </view>
             <view>
@@ -53,18 +53,18 @@
 
     
 
-        <view class="list">
+        <scroll-view class="list"scroll-y="true"style="height:{{height1}}">
             <navigator url="../xqym/xqym" class="item">  
                     <view class="left">
-                        <image src="/image1/2.png"></image>
+                        <image src="/image1/t.jpg"></image>
                     </view>
                     <view class="right">    
                         <view class="row1">
-                            <text class="item1">顺丰招寒假工十 三元一小时</text>
-                            <text class="item2">13元元/1小时</text>
+                            <text class="item1">浙江移动招实习生客服4K</text>
+                            <text class="item2">14元/1小时</text>
                         </view>
                         <view class="row2">
-                            <text class="item1">黄埔</text> 
+                            <text class="item1">嘉兴</text> 
                             <text class="item2">长期接受报名</text>
                         </view>
                         <view class="row3">
@@ -73,9 +73,130 @@
                             <text class="item3">签约企业</text>
                         </view>
                     </view>    
-            </navigator>
+             </navigator>
 
-        </view>
+
+
+
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
+                        <image src="/image1/t.jpg"></image>
+                    </view>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">顺丰招寒假工十 三元一小时</text>
+                            <text class="item2">13元/1小时</text>
+                        </view>
+                        <view class="row2">
+                            <text class="item1">黄埔</text> 
+                            <text class="item2">长期接受报名</text>
+                        </view>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item3">签约企业</text>
+                        </view>
+                    </view>    
+             </navigator>
+
+
+
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
+                        <image src="/image1/t.jpg"></image>
+                    </view>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">顺丰招寒假工十 三元一小时</text>
+                            <text class="item2">13元/1小时</text>
+                        </view>
+                        <view class="row2">
+                            <text class="item1">黄埔</text> 
+                            <text class="item2">长期接受报名</text>
+                        </view>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item2">置顶</text>
+                        </view>
+                    </view>    
+             </navigator>
+
+
+            
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
+                        <image src="/image1/t.jpg"></image>
+                    </view>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">浙江移动招实习生客服4K</text>
+                            <text class="item2">14元/1小时</text>
+                        </view>
+                        <view class="row2">
+                            <text class="item1">嘉兴</text> 
+                            <text class="item2">长期接受报名</text>
+                        </view>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item2">置顶</text>
+                            <text class="item3">签约企业</text>
+                        </view>
+                    </view>    
+             </navigator>
+
+
+
+           
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
+                        <image src="/image1/t.jpg"></image>
+                    </view>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">浙江移动招实习生客服4K</text>
+                            <text class="item2">14元/1小时</text>
+                        </view>
+                        <view class="row2">
+                            <text class="item1">嘉兴</text> 
+                            <text class="item2">长期接受报名</text>
+                        </view>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item2">置顶</text>
+                            <text class="item3">签约企业</text>
+                        </view>
+                    </view>    
+             </navigator>
+
+
+
+            
+            <navigator url="../xqym/xqym" class="item">  
+                    <view class="left">
+                        <image src="/image1/t.jpg"></image>
+                    </view>
+                    <view class="right">    
+                        <view class="row1">
+                            <text class="item1">浙江移动招实习生客服4K</text>
+                            <text class="item2">14元/1小时</text>
+                        </view>
+                        <view class="row2">
+                            <text class="item1">嘉兴</text> 
+                            <text class="item2">长期接受报名</text>
+                        </view>
+                        <view class="row3">
+                            <text class="item1">刚刚</text>
+                            <text class="item2">置顶</text>
+                            <text class="item3">签约企业</text>
+                        </view>
+                    </view>    
+             </navigator>
+
+
+
+
+             
+           
+        </scroll-view>
        
 
       

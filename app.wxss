@@ -11,10 +11,10 @@
 } 
 
 .className{
- color: gold;
+ color: #FB8E4D;
 }
 page{
-    background-color: #F8F8F8;
+    background-color: #fff;
     font-size: 16px;
     font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 }

@@ -1,6 +1,6 @@
 <!--logs.wxml-->
-<view id="but">
-    <view id="vie1">
+<view class="but">
+    <view class="vie1">
         <view>
             <navigator url="../index/grzx/grzx">
                 <image src="/image1/4.png"></image>
@@ -13,7 +13,7 @@
         </view>
     </view>
 
-    <view id="vie2">
+    <view class="vie2">
         <view>
             <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
         </view>
@@ -25,7 +25,7 @@
         </view>
     </view>
 
-    <view id="lef">
+    <view class="lef">
         <view class="lef1" hover-class="className">
             <navigator class="mao-tab-font" url="url" hover-class="mao-active"> 喵老板</navigator>
         </view>
@@ -36,11 +36,13 @@
         <view class="lef4"><image src="/image1/ren1.png"></image></view>
     </view>
     
-    <scroll-view id="tab" scroll-y="true" style="height:{{ scroll_height }}">
+    <scroll-view class="tab" scroll-y="true" style="height:{{ scroll_height }}">
         <view class="tab1 mao-font" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
         
         <view class="tab3" wx:for="{{['查看']}}">
-        <navigator url="guanl/guanl">{{item}}</navigator>
+            <navigator url="guanl/guanl">
+            {{item}}
+            </navigator>
         </view>
         </view>
     </scroll-view>

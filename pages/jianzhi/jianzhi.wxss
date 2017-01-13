@@ -1,19 +1,24 @@
 /* pages/jianzhi/jianzhi.wxss */
 page{background: #fff;}
 .weui-cell__bd{
-    font-size:28rpx;
+    font-size:30rpx;
     color: #ccc;
 }
 .weui-cells__title{
-    background-color: #F5F5F5;
-    border-radius:60rpx;
-    margin: 10rpx； 
+    background-color: #F5f5f5;
+    font-size: 30rpx;
+    margin-top:0;  
 }
 .weui-label{
     font-size: 30rpx;
-    color: dimgray
+    color: #CDD2D4;
 
 }
 .weui-cell__bd-1{
-    color: orange;
+    color: #FB8E4D;
+    font-size: 30rpx;
+}
+.list{
+    background-color: #FB8E4D;
+    color: #fff;
 }
