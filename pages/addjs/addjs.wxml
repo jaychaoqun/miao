@@ -27,19 +27,19 @@
         </view>
 
         <view class="right2">
-            <view>
+            <view class="right2_1">
                 <text class="right3">综合排序{{}}</text>
                 <image src="/image1/pai.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">金额{{}}</text>
                 <image src="/image1/金额.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">时间{{}}</text>
                 <image src="/image1/时间.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">地区{{}}</text>
                 <image src="/image1/地区.png"></image>
             </view>

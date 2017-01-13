@@ -32,7 +32,7 @@
     
     <scroll-view class="board" scroll-y="true" style="height:{{ scroll_height }}">
         <view wx:for="{{ tap }}">
-            <navigator url="">
+            <navigator url="guanl/guanl">
                 <view class="board-item">
                     <text> {{ item }} </text>
                     <image src="../../image1/arrowright.png" mode="aspectfill"></image>
