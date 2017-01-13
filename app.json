@@ -1,6 +1,5 @@
 {
   "pages":[
-    "pages/personal/personal",
     "pages/index/index",
     "pages/logs/logs",
     "pages/addjs/addjs",
@@ -9,6 +8,7 @@
     "pages/index/index2/index2",
     "pages/index/grzx/grzx",
     "pages/jianzhi/jianzhi",
+    "pages/personal/personal",
     "pages/logs/guanl/guanl"
   ],
   "window":{
