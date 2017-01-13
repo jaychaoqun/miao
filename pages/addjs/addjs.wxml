@@ -1,9 +1,11 @@
 <!--addjs.wxml-->
+
 <view class="but">
+
     <view class="vie1">
         <view>
-            <navigator url="../index/grzx/grzx">
-                <image src="/image1/4.png"></image>
+            <navigator url="../personal/personal">
+                <image src="/image1/ren1.png"></image>
             </navigator>
         </view>  
         <view>
@@ -14,6 +16,7 @@
     </view>
 
     <view class="vie2">
+
         <view>
             <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
         </view>
@@ -23,6 +26,8 @@
         <view class="mao-active">
             <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-tab-font"class="mao-active" >接单大厅</navigator>
         </view>
+
+
     </view>
 
     <view>
@@ -37,15 +42,15 @@
                 <text class="right3">排序{{}}</text>
                 <image src="/image1/pai.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">金额{{}}</text>
                 <image src="/image1/金额.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">时间{{}}</text>
                 <image src="/image1/时间.png"></image>
             </view>
-            <view>
+            <view class="right2_1">
                 <text class="right3">地区{{}}</text>
                 <image src="/image1/地区.png"></image>
             </view>
@@ -53,7 +58,7 @@
 
     
 
-        <scroll-view class="list"scroll-y="true"style="height:{{height1}}">
+        <scroll-view class="list"scroll-y="true"style="height:{{scroll_height}}">
             <navigator url="../xqym/xqym" class="item">  
                     <view class="left">
                         <image src="/image1/t.jpg"></image>

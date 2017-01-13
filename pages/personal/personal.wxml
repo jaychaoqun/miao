@@ -1,0 +1,77 @@
+<view class="main">
+  <view class="head">
+    <view class="head_top">
+      <image src="{{userInfo.avatarUrl}}" background_size="cover"></image>
+      <text>{{userInfo.nickName}}</text>
+    </view>
+    <view class="head_botton">
+      <navigator url="../wallet/wallet">
+        <view class="h1">
+          <image src="/image1/wallet.png"></image>
+          <text>我的钱包</text>
+        </view>
+      </navigator>
+      <view class="bor"></view>
+      <view  class="h1">
+        <image src="/image1/star.png"></image>
+        <text>我的收藏</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="body">
+
+    <view class="apply">
+      <view class="apply_i1">
+        <text>我的申请</text>
+      </view>
+      <view class="apply_i2">
+        <view class="i2_1">
+          <image src="/image1/smartphone.png"></image>
+          <text>已报名</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/user.png"></image>
+          <text>已录用</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/shopping-bag.png"></image>
+          <text>已到岗</text>
+        </view>
+        <view class="i2_2">
+          <image src="/image1/wallet1.png"></image>
+          <text>已结算</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="apply">
+      <view class="apply_i1">
+        <text>我的简历</text>
+      </view>
+      <view class="apply_i3">
+        <view class="i2_1">
+          <image src="/image1/user1.png"></image>
+          <text>基本资料</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/id-card.png"></image>
+          <text>职位卡</text>
+        </view>
+        <view class="i2_1">
+          <image src="/image1/queen.png"></image>
+          <text>实名认证</text>
+        </view>
+        <view class="i2_2">
+          <image src="/image1/like.png"></image>
+          <text>求职设置</text>
+        </view>
+      </view>
+    </view>
+    
+    <!--<view class="collection">
+       <image src="/image1/1.png"></image>
+       <text>收藏</text>
+    </view>-->
+  </view>
+</view>

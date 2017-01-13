@@ -8,8 +8,13 @@
     "pages/index/index2/index2",
     "pages/index/grzx/grzx",
     "pages/jianzhi/jianzhi",
-    "pages/recruit/guanl/guanl"
+    "pages/recruit/guanl/guanl",
+    "pages/personal/personal",
+    "pages/wallet/wallet",
+    "pages/logs/guanl/guanl" 
+
   ],
+
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fb8e4d",

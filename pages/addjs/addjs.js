@@ -1,15 +1,18 @@
 Page({
   data:{
-    height1:"500px"
+    scroll_height:"500px"
   },
-  onLoad:function(){
-    try{
-      var res=wx.getSystemInfoSync()
-      var h=res.windowHeight-120;
-      this.getData({height1:h+"px"});
-    }catch(e){
-
+   onLoad:function(){
+    try {
+      var res = wx.getSystemInfoSync()
+      var h = res.windowHeight-140;
+      this.setData({scroll_height:h+"px"});
+      
+    
+    } catch (e) {
+      // Do something when catch error
     }
+
   },
   onReady:function(){
     // 生命周期函数--监听页面初次渲染完成

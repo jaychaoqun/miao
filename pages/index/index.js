@@ -2,14 +2,15 @@ Page({
   data:{
     scroll_height:"500rpx",
     lod:false,
-     markers: [{
+    markers: [{
       iconPath: "/image1/diqu1.png",
       latitude: 30.737290,
       longitude: 120.819510,
       width:30,
       height:30,
       scale:16
-    }]
+    }],
+    scroll_height:"500rpx"
   }, 
   onLoad:function(){
     try {
@@ -30,11 +31,11 @@ Page({
     var latitude = res.latitude
     var longitude = res.longitude
 
-          wx.openLocation({
-            latitude: latitude,
-            longitude: longitude,
-            scale: 28
-          })
+      wx.openLocation({
+        latitude: latitude,
+        longitude: longitude,
+        scale: 28
+      })
   }
 })
   },

@@ -1,0 +1,147 @@
+.main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: #f3f3f3;
+}
+
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background:#FB8E4D;
+  height: 300rpx;
+}
+
+.head_top{
+  display: flex;
+  padding-left: 80rpx;
+}
+.head_top image{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 5px solid #FE934A; 
+}
+.head_top text {
+  margin: 40rpx 0 0 40rpx;
+  color: #fff;
+}
+
+.head_botton
+{
+  display: flex;
+  justify-content: space-around;
+  height: 60rpx;
+  padding: 20rpx;
+  background: #F1731E;
+  color: #fff;
+}
+
+.head_botton .h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1 image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.h1 text{
+   margin-left: 10rpx;
+}
+.head_botton .bor{
+  border-right: 1px solid #fff; 
+}
+
+
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.apply,.collection{
+  background: #fff;
+  margin-top: 40rpx;
+  height:200rpx; 
+}
+
+.apply{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apply .apply_i1{
+  margin-left: 15rpx;
+  height: 40rpx;
+  padding: 15rpx;
+}
+
+.apply .apply_i2{
+  height: 98rpx;
+  padding: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.apply_i2 image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.apply_i2 text{
+  color: #444;
+}
+
+.i2_1,.i2_2{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+ 
+} 
+.i2_1{
+   border-right: 1rpx solid #ccc; 
+}
+
+
+.apply .apply_i3{
+  height: 111rpx;
+  padding: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.apply_i3 image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.apply_i3 text{
+  color: #444;
+}
+
+/*.collection{
+  display: flex;
+  align-items:center; 
+  height: 40rpx;
+  padding: 20rpx 0 20rpx 40rpx;
+}
+.collection image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.collection text{
+  font-size: 14px;
+  margin-left: 20rpx;
+}*/

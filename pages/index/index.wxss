@@ -3,7 +3,6 @@
  display: flex;
  flex-direction: column;
 }
-
 .vie1{
   font-size: 14px;
   color: slategray;
@@ -45,7 +44,6 @@ switch{
 
 
 .foot{
-  /*position: fixed;*/
   position: fixed;
   width:100%;
   height: 100rpx;

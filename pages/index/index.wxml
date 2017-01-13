@@ -3,8 +3,9 @@
 <view class="but">
     <view class="vie1">
         <view>
-            <navigator url="../index/grzx/grzx">
-                <image src="/image1/4.png"></image>
+            <navigator url="../personal/personal">
+                <image src="/image1/ren1.png "></image>
+
             </navigator>
         </view>  
         <view>

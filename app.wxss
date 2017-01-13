@@ -1,5 +1,6 @@
 /**app.wxss**/
 @import 'weui.wxss';
+
 .container {
   height: 100%;
   display: flex;
@@ -13,6 +14,7 @@
 .className{
  color: #FB8E4D;
 }
+
 page{
     background-color: #fff;
     font-size: 16px;
@@ -23,3 +25,38 @@ page{
 .mao-active{font-size: 35rpx;color:#fb8e4d;font-weight: 400;}
 .mao-font{font-size:28rpx;color: #000;}
 .bar-bg{background: #f8f8f8;height: 80rpx;}
+
+.bor_orange{
+  border-bottom: 4rpx solid #f15838;
+}
+
+
+
+
+
+.vie1,.vie2{
+  background-color: #fff;
+}
+
+.vie1{
+  font-size: 14px;
+  color: slategray;
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+}
+
+.vie1 image{
+  width: 50rpx;
+  height: 50rpx;
+  margin: 10rpx 15rpx 0 15rpx;
+}
+
+.vie2{
+  color: gray;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  height: 60rpx;
+}

@@ -1,54 +1,54 @@
+
 <!--logs.wxml-->
 <view class="but">
-    <view class="vie1">
-        <view>
-            <navigator url="../index/grzx/grzx">
-                <image src="/image1/4.png"></image>
-            </navigator>
-        </view>  
-        <view>
-            <navigator url="../index/index2/index2">
-                <image src="/image1/3.png"></image>
-            </navigator>
-        </view>
+  <view class="vie1">
+    <view>
+      <navigator url="../personal/personal">
+        <image src="/image1/ren1.png"></image>
+      </navigator>
     </view>
-
-    <view class="vie2">
-        <view>
-            <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
-        </view>
-        <view class="mao-active">
-            <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-active">一键招人</navigator>
-        </view>
-        <view>
-            <navigator url="../addjs/addjs" open-type="redirect" hover-class="mao-active" class="mao-tab-font" >接单大厅</navigator>
-        </view>
+    <view>
+      <navigator url="../index/index2/index2">
+        <image src="/image1/3.png"></image>
+      </navigator>
     </view>
-
-    <view class="lef">
-        <view class="lef1" hover-class="className">
-            <navigator class="mao-tab-font" url="url" hover-class="mao-active"> 喵老板</navigator>
-        </view>
-        <view class="lef2">
-            <navigator url="url" hover-class="mao-active" class="mao-active"> 喵团长</navigator>
-        </view>
-        <view class="lef3"><image src="/image1/dian.png"></image></view>
-        <view class="lef4"><image src="/image1/ren1.png"></image></view>
+  </view>
+  <view class="vie2">
+    <view>
+      <navigator url="../index/index" open-type="redirect" hover-class="mao-active" class="mao-tab-font">附近</navigator>
     </view>
-    
-    <scroll-view class="tab" scroll-y="true" style="height:{{ scroll_height }}">
-        <view class="tab1 mao-font" hover-class="className" wx:for="{{['保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨','保洁阿姨']}}">{{item}}
-        
-        <view class="tab3" wx:for="{{['查看']}}">
-            <navigator url="guanl/guanl">
-            {{item}}
-            </navigator>
+    <view class="mao-active">
+      <navigator url="" open-type="redirect" hover-class="mao-active" class="mao-active">一键招人</navigator>
+    </view>
+    <view>
+      <navigator url="../addjs/addjs" open-type="redirect" hover-class="mao-active" class="mao-tab-font">接单大厅</navigator>
+    </view>
+  </view>
+  <view class="lef">
+    <view class="lef1" hover-class="className">
+      <navigator class="mao-tab-font" url="url" hover-class="mao-active"> 喵老板</navigator>
+    </view>
+    <view class="lef2">
+      <navigator url="url" hover-class="mao-active" class="mao-active"> 喵团长</navigator>
+    </view>
+    <view class="lef3">
+      <image src="/image1/dian.png"></image>
+    </view>
+    <view class="lef4">
+      <image src="/image1/ren1.png"></image>
+    </view>
+  </view>
+  <scroll-view class="board" scroll-y="true" style="height:{{ scroll_height }}">
+    <view wx:for="{{ tap }}">
+      <navigator url="guanl/guanl">
+        <view class="board-item">
+          <text> {{ item }} </text>
+          <image src="../../image1/arrowright.png" mode="aspectfill"></image>
         </view>
-        </view>
-    </scroll-view>
-
-    
-    <navigator url="../jianzhi/jianzhi">
-        <button class="butt">发布招聘</button>
-    </navigator>
+      </navigator>
+    </view>
+  </scroll-view>
+  <navigator url="../jianzhi/jianzhi">
+    <button class="butt">发布招聘</button>
+  </navigator>
 </view>
